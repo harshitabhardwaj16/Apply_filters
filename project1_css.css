@@ -20,7 +20,7 @@ body{
     font-size: 50px;
     font-style: normal;
     text-align: center;
-    font-color:crimson;
+    text-decoration-color:crimson;
 }
 #canvas{
     background-color: azure;
