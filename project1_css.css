@@ -1,0 +1,31 @@
+body{
+    background-image: url('http://cdn26.us1.fansshare.com/photo/hdwallpapers1080p/green-wheat-nature-hd-wallpaper-widescreen-wallpapers-nature-wallpaper-hd-download-for-mobile-desktop-pc-full-size-images-wallpaper-895414128.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#image{
+    height: auto;
+    width: 100%;
+}
+#bg_img{
+    height: 100%;
+    width: 100%;
+}
+#head{
+    background-color: black;
+    width: 100%;
+    height: 50px;
+}
+#heading{
+    font-size: 50px;
+    font-style: normal;
+    text-align: center;
+    font-color:crimson;
+}
+#canvas{
+    background-color: azure;
+    border: black solid 5px;
+    width: 50%;
+    align-self: center;
+    height: 500px;
+}

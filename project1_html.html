@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Filter Site</title>
+    <link rel="stylesheet" href="project1_css.css">
+    <script src="project1_javascript.js"></script>
+</head>
+<body>
+<script src="https://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js"></script>
+<div id="head"></div>
+<h1 id="heading">Filter Your Photo</h1>
+<canvas id="canvas"></canvas>
+<h2><b>Upload an Image</b></h2>
+<input type="file" id="image" multiple="false" accept="image/*" onchange="uploadImage()">
+<h2><b>Apply Filter</b></h2>
+<input type="button" id="button_gray" value="Make Gray" onclick="MakeGray()">
+<input type="button" id="button_red" value="Make Red" onclick="make_red()">
+<input type="button" value=" Make Rainbow" id="button_rainbow" onclick="Make_Rainbow()">
+<input type="button" id="button_darkred" value="Make Dark Red" onclick="Make_DarkRed()">
+<input type="button" id="reset" value="Reset Image" onclick="reset()">
+</body>
+</html>
